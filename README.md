@@ -1,1 +1,1 @@
-# YubikNakarmi.github.io
+# Prototype for sukul gi tag
