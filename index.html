@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thasi Section</title>
+  <style>
+    body {
+      background-color: #0a1b35;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #162447;
+      border: 2px solid #463c74;
+      padding: 2rem;
+      max-width: 350px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+
+    .card h2 {
+      color: #f5a623;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .divider {
+      height: 1px;
+      background-color: #f5a623;
+      margin: 0.5rem 0 1.2rem;
+      position: relative;
+    }
+
+    .divider::before {
+      content: '•';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -0.7rem;
+      font-size: 1.4rem;
+      color: #f5a623;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #e6e6e6;
+    }
+
+    .card img {
+      margin-top: 1.2rem;
+      max-width: 100%;
+      border-radius: 6px;
+      border: 4px solid white;
+    }
+  </style>
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+  <div class="card">
+    <h2>THASI</h2>
+    <div class="divider"></div>
+    <p>
+      In the heart of Thasi where the air carries the scent of earth and old tradition there lies a story woven with straw. More than just a mat, suku has been a part of daily life for generations. It has hosted prayers, celebrations and quiet moments under the sun.
+      To the people of Thasi, suku is both a craft and a memory passed down by hand, tied to identity and pride. Though modern times have brought changes, the community still teaches and preserves the skill, keeping the story alive in each weave. To Thasi, suku isn't just a product woven out of straw, it's woven from history, memory and home.
+    </p>
+    <img src="file-YGQG3BTLdxeRwsiGfnZqrx" alt="Sukul Texture">
+  </div>
 
 </body>
 </html>
